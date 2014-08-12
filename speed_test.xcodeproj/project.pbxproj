@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F03FEABB1983440F00344FB1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F03FEABA1983440F00344FB1 /* main.c */; };
 		F03FEABD1983440F00344FB1 /* speed_test.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F03FEABC1983440F00344FB1 /* speed_test.1 */; };
+		F0B2E1371983CEC0008C27D0 /* inet_com.c in Sources */ = {isa = PBXBuildFile; fileRef = F03FEAC5198344A700344FB1 /* inet_com.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		F03FEAB71983440F00344FB1 /* speed_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = speed_test; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03FEABA1983440F00344FB1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F03FEABC1983440F00344FB1 /* speed_test.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = speed_test.1; sourceTree = "<group>"; };
+		F03FEAC41983447400344FB1 /* inet_com.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inet_com.h; sourceTree = "<group>"; };
+		F03FEAC5198344A700344FB1 /* inet_com.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inet_com.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				F03FEABA1983440F00344FB1 /* main.c */,
 				F03FEABC1983440F00344FB1 /* speed_test.1 */,
+				F03FEAC41983447400344FB1 /* inet_com.h */,
+				F03FEAC5198344A700344FB1 /* inet_com.c */,
 			);
 			path = speed_test;
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0B2E1371983CEC0008C27D0 /* inet_com.c in Sources */,
 				F03FEABB1983440F00344FB1 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +233,7 @@
 				F03FEAC21983440F00344FB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
